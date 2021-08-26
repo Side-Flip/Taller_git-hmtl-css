@@ -27,6 +27,11 @@ body{
     color: white;
 }
 
+.div-formulario{
+  margin-top: 30px;
+
+}
+
 .form-register h1{
     font-size: 30px;
     margin-bottom: 20px;
@@ -84,7 +89,7 @@ nav{
     min-height: 65px;
     background-color:#2d616d;
     border: white 2px solid;
-    position: absolute;
+    position: relative;
     z-index: 2;
     display: flex;
     justify-content: space-between;
