@@ -1,12 +1,8 @@
-html{
-    width: 100%;
+html, body{
+    margin: 0;
     height: 100%;
 }
-body{
-    margin: 0px;
-    width: 100%;
-    height: 100%;
-}
+
 
 *{
     box-sizing: border-box;
@@ -15,10 +11,15 @@ body{
 .fondo{
     width: 100%;
     height: 100%;
-    position: absolute;
     background-image: linear-gradient(90deg, #111a24 0%, #1e4149 100%);
     filter: blur(6px);
     z-index: -2;
+}
+
+.containerAlpha{
+    position: relative;
+    top: -100%;
+    height: 100%;
 }
 
 nav{
@@ -26,7 +27,6 @@ nav{
     min-height: 65px;
     background-color:#2d616d;
     border: white 2px solid;
-    position: absolute;
     z-index: 2;
     display: flex;
     justify-content: space-between;
@@ -69,8 +69,7 @@ nav a:hover{
 article{
     width: 100%;
     height: 88%;
-    margin-top: 65px;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: row;
     z-index: 2;
@@ -82,15 +81,77 @@ article{
 }
 
 .container_left{
-    width: 30%;
+    width: 20%;
+    height: 100%;
+    border: 2px double;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_noticia{
+    height: 250px;
+    overflow: hidden;
+}
+
+.container_noticia img{
+    position: absolute;
+    vertical-align: middle;
+    z-index: -1;
+    margin: 10px;
+}
+
+.noticia_titular{
+    margin: 0px 9px 0px 10px;
+    transform: translate(0px, 166px);
+    font-size: 13px;
+}
+
+.noticia_titular h1{
+    margin: 0px;
+    background:#00000073 ;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.container_noticia:hover .noticia_titular h1{
+    background: #000000af;
+}
+
+.container_right{
+    width: 80%;
     height: 100%;
     border: 2px double;
     margin: 0px;
 }
 
-.container_right{
-    width: 70%;
-    height: 100%;
-    border: 2px double;
-    margin: 0px;
+footer{
+    width: 100%;
+    height: 50px;
+    border: white 2px solid;
+    background-color: #171a21;
+    position: relative;
+    z-index: 2;
+}
+
+.images_footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.images_footer img{
+    margin: 0px 10px 0px 10px;
+    max-width: 50px;
+    max-height: 30px;
+    padding-top: 10px;
+    filter: grayscale(100%);
+}
+
+.footer_text{
+    margin-right: 100px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: "mulish", sans-serif;
+    color: white;
 }
