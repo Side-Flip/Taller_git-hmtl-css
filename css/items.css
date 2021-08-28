@@ -79,20 +79,35 @@ article{
 .cuadro{
     border:solid 1px ;
     border-color:white;
-
-    background-color: #2d616d;
+    /* background-image: linear-gradient(50deg, #4e7c80, #27434b 50%, #effeff 100%);
+    background-color: #2d616d;*/
     border-radius: 8px;
-    padding: 3%;
-    margin-right: 100px;
+    padding: 40px;
+    padding-top: 10px;
+    margin-right: 95px;
     margin-left: 50px;
+    margin-top: 20px;
     display: inline-block;
-   
+    text-align:center;
+    font-family: Helvetica, sans-serif;
+    font-size: 19.5px;
+    color: white;   
+    max-width:200px; 
     
 }
+
 img{
     height: auto;
     width: auto;
     width: 100% ;
-    width: 200px;
-    height: 100px;
+    width: 214.4px;
+    height: 275px;
+}
+
+
+.inter_div{
+    border:solid 0.5px ;
+    border-radius: 60px;
+    display: inline-block;
+    padding: 5px;
 }
