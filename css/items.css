@@ -84,8 +84,8 @@ article{
     border-radius: 8px;
     padding: 40px;
     padding-top: 10px;
-    margin-right: 95px;
-    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 90px;
     margin-top: 20px;
     display: inline-block;
     text-align:center;
@@ -109,5 +109,17 @@ img{
     border:solid 0.5px ;
     border-radius: 60px;
     display: inline-block;
-    padding: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.inter_div2{
+    border:solid 1px ;
+    border-radius: 60px;
+    border-color: #000000;
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color:#2d616d;
+    color: #d2e7e7;
 }
