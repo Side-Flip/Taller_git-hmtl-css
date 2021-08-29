@@ -123,3 +123,15 @@ img{
     background-color:#2d616d;
     color: #d2e7e7;
 }
+
+.foo{
+    border:solid 1px ;
+    background-image: linear-gradient(90deg, #3d4c5e 0%, #1e4149 100% );
+    border-radius: 30px;
+    color: #d2e7e7;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    margin-top: 30px;
+    
+}
