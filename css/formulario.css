@@ -7,12 +7,13 @@ body{
     margin: 0px;
     width: 100%;
     height: 100%;
+    background-image: linear-gradient(90deg, #111a24 0%, #1e4149 50%, #111a24 100%);
+
 
 }
 
 *{
-    margin: 0;
-    padding: 0;
+   
     box-sizing: border-box;
 }
 
@@ -21,29 +22,31 @@ body{
     background-image: linear-gradient(50deg, #13292e00 0%, #19343a00 100%);
     padding: 30px;
     margin: auto;
-    margin-top: auto;
+    margin-top: 20px;
     border-radius: 4px;
     font-family: 'calibri';
     color: white;
-}
-
-.div-formulario{
-  margin-top: 0px;
+    border: 3px solid #1e4149;
+    border-radius: 10px;
 
 }
+
 
 .form-register h1{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 15px;
     padding: 15px;
     text-align: center;
+    border: 3px solid #1e4149;
+    border-radius: 20px;
+    
 }
 
 .controls{
     width: 100%;
     background-image: linear-gradient(50deg, #c3effa 0%, #dafffccc 50%, #c3effa 100%);
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 20px;
     margin-bottom: 16px;
     border: 3px solid #1e4149 ;
     font-family: 'calibri';
@@ -55,11 +58,10 @@ body{
 .coco{
     
     font-size: 20px;
-    margin-bottom: 20px;
-    font-family: 'calibri';
+    margin-bottom: 15px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 4px;
+    border-radius: 20px;
     color: #ffffff;
 
 }
@@ -67,9 +69,10 @@ body{
 .form-register .botons{
     width: 100%;
     background-image: linear-gradient(50deg, #effeff 0%, #c3effa 50%, #effeff 100%);
-    border: none;
+    border: 4px;
+    border-radius: 20px;
     padding: 12px;
-    color: #1e4149;
+    color: #212c2c;;
     margin: 16px 0;
     font-size: 16px;
     border: 3px solid #1e4149 ;
@@ -81,8 +84,7 @@ body{
     width: 100%;
     height: 100%;  
     position: absolute;
-    background-image: linear-gradient(90deg, #111a24 0%, #1e4149 100%);
-  
+    background-image: linear-gradient(90deg, #111a24 0%, #1e4149 50%, #111a24 100%);
     z-index: -2;
    
 }
@@ -91,7 +93,7 @@ nav{
     width: 100%;
     min-height: 65px;
     background-color:#2d616d;
-    border: white 2px solid;
+    border: #ffffff 2px solid;
     position: relative;
     z-index: 2;
     display: flex;
@@ -100,10 +102,10 @@ nav{
 
 .titulo__navegador{
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     color: white;
 }
 
@@ -130,4 +132,17 @@ nav a{
 
 nav a:hover{
     background-color: #171a21;
+}
+
+.foo{
+
+    border: solid 1px ;
+    background-image:linear-gradient(50deg, #3b636d 0%, #dafffccc 50%, #3b4e53 100%);
+    border-radius: 2px;
+    color: #212c2c;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    margin-top: 20px;
+    
 }
