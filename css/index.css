@@ -1,5 +1,6 @@
 html, body{
     margin: 0;
+    width: 100%;
     height: 100%;
 }
 
@@ -9,9 +10,8 @@ html, body{
 }
 
 .fondo{
-    width: 100%;
-    height: 100%;
     background-image: linear-gradient(90deg, #111a24 0%, #1e4149 100%);
+    background-attachment: scroll;
     filter: blur(6px);
     z-index: -2;
 }
@@ -19,7 +19,7 @@ html, body{
 .containerAlpha{
     position: relative;
     top: -100%;
-    height: 100%;
+    height: auto;
 }
 
 nav{
@@ -125,12 +125,31 @@ article{
     margin: 0px;
 }
 
+.container_right h1{
+    margin: 5px;
+    border: 2px white solid;
+}
+
+.contenedor_reseña{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.reseña-text{
+    margin-left: 10px;
+}
+
+.contenedor_reseña img{
+    margin-left: 5px;
+    max-height: 130px;
+}
+
 footer{
     width: 100%;
     height: 50px;
     border: white 2px solid;
     background-color: #171a21;
-    position: relative;
     z-index: 2;
 }
 
